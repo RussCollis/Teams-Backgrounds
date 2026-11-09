@@ -1,0 +1,248 @@
+{
+  "source": "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Build Failed",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Backgrounds",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Images…",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drag in images or folders of images. Any format macOS can read is converted to PNG and renamed to the UUID format Teams expects.",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drop Images Here",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "Output",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "Image Conversion",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 170
+        }
+      },
+      {
+        "comment": "",
+        "key": "Teams",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 187
+        }
+      },
+      {
+        "comment": "",
+        "key": "Installer Package",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 198
+        }
+      },
+      {
+        "comment": "",
+        "key": "Package name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "Format",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save to",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose…",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saved as <uuid>.png with a %lld × %lld <uuid>_thumb.png.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resize",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resolution",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 176
+        }
+      },
+      {
+        "comment": "",
+        "key": "Install for",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 188
+        }
+      },
+      {
+        "comment": "",
+        "key": "Restart Teams if running",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 193
+        }
+      },
+      {
+        "comment": "",
+        "key": "All local users when run as root",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Optional: Developer ID Installer: …",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Identifier",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signing identity",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reveal",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "Build %@",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 222
+        }
+      }
+    ]
+  },
+  "version": 1
+}

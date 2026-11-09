@@ -1,0 +1,12 @@
+{
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/ContentView.swift" : {
+    "abi-baseline-json" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Teams_Backgrounds.abi.json",
+    "const-values" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary.d",
+    "diagnostics" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary.dia",
+    "objc-header" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Teams_Backgrounds-Swift.h",
+    "swiftdoc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Teams_Backgrounds.swiftdoc",
+    "swiftmodule" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Teams_Backgrounds.swiftmodule",
+    "swiftsourceinfo" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Teams_Backgrounds.swiftsourceinfo"
+  }
+}

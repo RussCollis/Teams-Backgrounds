@@ -1,0 +1,67 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "632c9419ee72205089f085be8b2e4b3e341184bd36c33c60bd08e297950cef23"
+    }
+  ],
+  "containerPath" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/Untitled Project.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx27.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64",
+        "arm64e",
+        "arm64e.x1",
+        "x86_64",
+        "x86_64h"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

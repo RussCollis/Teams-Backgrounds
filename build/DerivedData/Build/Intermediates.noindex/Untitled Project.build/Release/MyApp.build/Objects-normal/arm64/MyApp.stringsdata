@@ -1,0 +1,24 @@
+{
+  "source": "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/MyApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Teams Backgrounds",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 5
+        }
+      },
+      {
+        "comment": "",
+        "key": "About Teams Backgrounds",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 10
+        }
+      }
+    ]
+  },
+  "version": 1
+}

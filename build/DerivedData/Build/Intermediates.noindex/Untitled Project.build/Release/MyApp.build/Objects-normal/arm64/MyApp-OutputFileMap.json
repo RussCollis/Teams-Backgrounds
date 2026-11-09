@@ -1,0 +1,51 @@
+{
+  "" : {
+    "const-values" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary.d",
+    "diagnostics" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary.dia",
+    "emit-module-dependencies" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary-emit-module.dia",
+    "pch" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp-primary.swiftdeps"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/ContentView.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/ImageConverter.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ImageConverter.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ImageConverter.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ImageConverter.o"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/Models.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/Models.o"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/MyApp.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/MyApp.o"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/PackageBuilder.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/PackageBuilder.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/PackageBuilder.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/PackageBuilder.o"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/PackagerModel.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/PackagerModel.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/PackagerModel.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/PackagerModel.o"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/MyApp/ScriptTemplates.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ScriptTemplates.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ScriptTemplates.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/ScriptTemplates.o"
+  },
+  "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/russellcollis/Library/Developer/Xcode/UntitledProjects/Untitled Project/build/DerivedData/Build/Intermediates.noindex/Untitled Project.build/Release/MyApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}
