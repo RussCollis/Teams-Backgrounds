@@ -5,13 +5,13 @@ struct ContentView: View {
 
     var body: some View {
         HStack(spacing: 0) {
-            ImageListView(model: model)
-                .frame(minWidth: 420, maxWidth: .infinity, maxHeight: .infinity)
+            OptionsView(model: model)
+                .frame(width: 380)
 
             Divider()
 
-            OptionsView(model: model)
-                .frame(width: 380)
+            ImageListView(model: model)
+                .frame(minWidth: 420, maxWidth: .infinity, maxHeight: .infinity)
         }
         .frame(minWidth: 820, minHeight: 600)
         .alert(
@@ -145,6 +145,8 @@ private struct OptionsView: View {
 
     var body: some View {
         VStack(spacing: 0) {
+            BrandHeader()
+
             Form {
                 Section("Output") {
                     TextField("Package name", text: $model.packageName)
@@ -207,6 +209,55 @@ private struct OptionsView: View {
 
             BuildPanel(model: model)
         }
+    }
+}
+
+/// Logo, app name and version shown above the options, on a blue-to-indigo
+/// gradient that picks up the logo's blue and the Teams indigo.
+private struct BrandHeader: View {
+    private static let gradient = LinearGradient(
+        colors: [
+            Color(red: 0.16, green: 0.36, blue: 0.85),
+            Color(red: 0.36, green: 0.37, blue: 0.78),
+            Color(red: 0.29, green: 0.24, blue: 0.62)
+        ],
+        startPoint: .topLeading,
+        endPoint: .bottomTrailing
+    )
+
+    private var versionText: String {
+        let info = Bundle.main.infoDictionary
+        let version = info?["CFBundleShortVersionString"] as? String ?? "1.0"
+        let build = info?["CFBundleVersion"] as? String ?? "1"
+        return "Version \(version) (\(build))"
+    }
+
+    var body: some View {
+        HStack(spacing: 14) {
+            Image("Logo")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 60, height: 60)
+                .padding(6)
+                .background(.white.opacity(0.9), in: .circle)
+                .shadow(color: .black.opacity(0.2), radius: 4, y: 2)
+                .accessibilityHidden(true)
+
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Teams Backgrounds")
+                    .font(.title2.bold())
+                Text(versionText)
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(.white.opacity(0.85))
+            }
+            .foregroundStyle(.white)
+
+            Spacer(minLength: 0)
+        }
+        .padding(.horizontal, 20)
+        .padding(.vertical, 16)
+        .frame(maxWidth: .infinity)
+        .background(Self.gradient)
     }
 }
 
