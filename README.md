@@ -1,5 +1,7 @@
 # Teams Backgrounds
 
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=russcollis&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/russcollis)
+
 A macOS app that turns a set of images into a deployable package of custom Microsoft Teams backgrounds. It converts and renames the images to the format Teams expects, builds the folder structure, and produces a **Folder**, **DMG** or **PKG** containing an install script that copies the backgrounds into Teams and restarts Teams so they show up.
 
 It's based on the approach described in [Deploying Custom Backgrounds to New Microsoft Teams on macOS](https://www.oddsandendpoints.co.uk/posts/macos-teams-new-backgrounds/).
