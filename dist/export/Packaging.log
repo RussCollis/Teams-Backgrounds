@@ -1,0 +1,101 @@
+2026-11-18 12:22:33 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x75db562700; archive(resolved)="<IDEArchive: 0x75dbef9180>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team(resolved)="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x75db562700; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x75db562400; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9956300; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9955e00; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9955b80; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9955900; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9954a00; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9954780; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9954500; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="<IDEProvisioningBasicTeam: 0x75dbf45520; teamID='UM5LY5579J', teamName='(null)'>">
+	<IDEDistributionContext: 0x75d9954280; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="(null)">
+	<IDEDistributionContext: 0x75d9954000; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="<IDEDistributionMethodDeveloperID: 0x75dbfe80d0>", team="(null)">
+	<IDEDistributionContext: 0x105079d80; archive = "<IDEArchive: 0x75dbef9180>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x75db562700>
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-11-18 12:22:33 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app' '/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app'
+2026-11-18 12:22:33 +0000  >>> Copying /Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app 
+2026-11-18 12:22:33 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2026-11-18 12:22:33 +0000  cloned ./Contents/_CodeSignature/CodeResources
+2026-11-18 12:22:33 +0000  copying file ./Contents/MacOS/Teams Backgrounds ... 
+2026-11-18 12:22:33 +0000  cloned ./Contents/MacOS/Teams Backgrounds
+2026-11-18 12:22:33 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2026-11-18 12:22:33 +0000  cloned ./Contents/Resources/AppIcon.icns
+copying file ./Contents/Resources/Assets.car ... 
+2026-11-18 12:22:33 +0000  cloned ./Contents/Resources/Assets.car
+2026-11-18 12:22:33 +0000  copying file ./Contents/Info.plist ... 
+2026-11-18 12:22:33 +0000  cloned ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+2026-11-18 12:22:33 +0000  cloned ./Contents/PkgInfo
+2026-11-18 12:22:33 +0000 [MT] /usr/bin/ditto exited with 0
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-11-18 12:22:33 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x75d9920a80; bundleID='com.russcollis.TeamsBackgrounds', path='<DVTFilePath:0x75dbf16680:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x75d99207e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x75da906680; name='Apple Development: Russell Collis (A996XTB973)', hash='7DDB012BFCB30254EC1500FB8C33A7D526006425', serialNumber='3E6F69733AC8EA9A3F0E9F7E63497703', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-11-17 16:23:01 +0000''>', entitlements='{
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='UM5LY5579J', identifier='com.russcollis.TeamsBackgrounds', executablePath='<DVTFilePath:0x75dbf50980:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app/Contents/MacOS/Teams Backgrounds'>', hardenedRuntime='1'>'>
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-11-18 12:22:33 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-11-18 12:22:33 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-11-18 12:22:33 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-11-18 12:22:33 +0000 [MT] Archs to thin for item /Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app are []
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-11-18 12:22:33 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-11-18 12:22:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x75d9920a80; bundleID='com.russcollis.TeamsBackgrounds', path='<DVTFilePath:0x75dbf16680:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x75d99207e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x75da907f00; name='Apple Development: Russell Collis (A996XTB973)', hash='7DDB012BFCB30254EC1500FB8C33A7D526006425', serialNumber='3E6F69733AC8EA9A3F0E9F7E63497703', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-11-17 16:23:01 +0000''>', entitlements='{
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='UM5LY5579J', identifier='com.russcollis.TeamsBackgrounds', executablePath='<DVTFilePath:0x75dbf50980:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app/Contents/MacOS/Teams Backgrounds'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2026-11-18 12:22:33 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-11-18 12:22:33 +0000 [MT] Entitlements for <IDEDistributionItem: 0x75d9920a80; bundleID='com.russcollis.TeamsBackgrounds', path='<DVTFilePath:0x75dbf16680:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x75d99207e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x75da907f00; name='Apple Development: Russell Collis (A996XTB973)', hash='7DDB012BFCB30254EC1500FB8C33A7D526006425', serialNumber='3E6F69733AC8EA9A3F0E9F7E63497703', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-11-17 16:23:01 +0000''>', entitlements='{
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='UM5LY5579J', identifier='com.russcollis.TeamsBackgrounds', executablePath='<DVTFilePath:0x75dbf50980:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app/Contents/MacOS/Teams Backgrounds'>', hardenedRuntime='1'>'> are: {
+    "com.apple.security.files.user-selected.read-only" = 1;
+}
+2026-11-18 12:22:33 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x75d9920a80; bundleID='com.russcollis.TeamsBackgrounds', path='<DVTFilePath:0x75dbf16680:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x75d99207e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x75da907f00; name='Apple Development: Russell Collis (A996XTB973)', hash='7DDB012BFCB30254EC1500FB8C33A7D526006425', serialNumber='3E6F69733AC8EA9A3F0E9F7E63497703', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-11-17 16:23:01 +0000''>', entitlements='{
+    "com.apple.security.files.user-selected.read-only" = 1;
+}', teamID='UM5LY5579J', identifier='com.russcollis.TeamsBackgrounds', executablePath='<DVTFilePath:0x75dbf50980:'/Users/russellcollis/Documents/GitHub/Teams Backgrounds/dist/Teams Backgrounds.xcarchive/Products/Applications/Teams Backgrounds.app/Contents/MacOS/Teams Backgrounds'>', hardenedRuntime='1'>'> to: /var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/entitlements~~~1xy7Hb
+2026-11-18 12:22:33 +0000 [MT] invoking codesign: <NSConcreteTask: 0x75db0b9ea0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    86A45E52AE9EFDFCC699E71A00E6FD5EBA922A31,
+    "--entitlements",
+    "/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/entitlements~~~1xy7Hb",
+    "--requirements",
+    "=designated => anchor apple generic  and identifier \"$self.identifier\" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = \"UM5LY5579J\" ))",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app"
+)'>
+2026-11-18 12:22:33 +0000 [MT] codesign output: /var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app: replacing existing signature
+/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app: signed app bundle with Mach-O thin (arm64) [com.russcollis.TeamsBackgrounds]
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-11-18 12:22:33 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionSkipPackagingStep
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-11-18 12:22:33 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-11-18 12:22:33 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x75dbf7ea80:'/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app'>
+2026-11-18 12:22:33 +0000 [MT] [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x75dbf7ea80:'/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x75dc223bf0:'/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x75dc223bf0:'/var/folders/9s/7b1t4z6165zf3_v_7wz5xxy80000gn/T/XcodeDistPipeline.~~~lkB6Gc/Root/Applications/Teams Backgrounds.app/Contents/embedded.provisionprofile'>}
+2026-11-18 12:22:33 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2026-11-18 12:22:33 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so
