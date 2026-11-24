@@ -13,9 +13,9 @@
 		<key>CFBundleIdentifier</key>
 		<string>com.russcollis.TeamsBackgrounds</string>
 		<key>CFBundleShortVersionString</key>
-		<string>1.1.1</string>
+		<string>1.2.0</string>
 		<key>CFBundleVersion</key>
-		<string>3</string>
+		<string>4</string>
 		<key>SigningIdentity</key>
 		<string>Apple Development: Russell Collis (A996XTB973)</string>
 		<key>Team</key>
@@ -24,7 +24,7 @@
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2026-11-18T12:22:23Z</date>
+	<date>2026-11-24T19:58:30Z</date>
 	<key>Name</key>
 	<string>Teams Backgrounds</string>
 	<key>SchemeName</key>
