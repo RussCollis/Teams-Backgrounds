@@ -13,8 +13,8 @@
 set -euo pipefail
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT="$PROJECT_DIR/Untitled Project.xcodeproj"
-SCHEME="MyApp"
+PROJECT="$PROJECT_DIR/Teams Backgrounds.xcodeproj"
+SCHEME="Teams Backgrounds"
 APP_NAME="Teams Backgrounds"
 CONFIGURATION="Release"
 BUILD_DIR="$PROJECT_DIR/build"

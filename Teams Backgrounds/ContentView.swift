@@ -200,7 +200,7 @@ private struct OptionsView: View {
                     Section("Installer Package") {
                         TextField("Identifier", text: $model.packageIdentifier)
                         TextField("Version", text: $model.packageVersion)
-                        TextField("Signing identity", text: $model.signingIdentity, prompt: Text("Optional: Developer ID Installer: …"))
+                        SigningIdentityField(identity: $model.signingIdentity)
                     }
                 }
             }
@@ -212,14 +212,13 @@ private struct OptionsView: View {
     }
 }
 
-/// Logo, app name and version shown above the options, on a blue-to-indigo
-/// gradient that picks up the logo's blue and the Teams indigo.
+/// Logo, app name and version shown above the options, on the same blue
+/// gradient as the app icon.
 private struct BrandHeader: View {
     private static let gradient = LinearGradient(
         colors: [
-            Color(red: 0.16, green: 0.36, blue: 0.85),
-            Color(red: 0.36, green: 0.37, blue: 0.78),
-            Color(red: 0.29, green: 0.24, blue: 0.62)
+            Color(red: 0.18, green: 0.42, blue: 1.0),
+            Color(red: 0.09, green: 0.21, blue: 0.66)
         ],
         startPoint: .topLeading,
         endPoint: .bottomTrailing
@@ -237,9 +236,7 @@ private struct BrandHeader: View {
             Image("Logo")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 60, height: 60)
-                .padding(6)
-                .background(.white.opacity(0.9), in: .circle)
+                .frame(width: 72, height: 72)
                 .shadow(color: .black.opacity(0.2), radius: 4, y: 2)
                 .accessibilityHidden(true)
 

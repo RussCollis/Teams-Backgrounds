@@ -1,6 +1,8 @@
+<p align="center"><img src="icon.png" width="128" alt="Teams Backgrounds icon"></p>
+
 # Teams Backgrounds
 
-**Version:** 1.1.1  
+**Version:** 1.2.0  
 **Owner:** Russell Collis
 
 [![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=russcollis&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/russcollis)
@@ -28,7 +30,7 @@ From the repository root:
 ./build.sh --debug         # Debug build
 ```
 
-You can also open `Untitled Project.xcodeproj` in Xcode and run the **MyApp** scheme.
+You can also open `Teams Backgrounds.xcodeproj` in Xcode and run the **Teams Backgrounds** scheme.
 
 The app is not sandboxed because it runs `hdiutil`, `pkgbuild` and `xattr` to build disk images and installer packages.
 
@@ -43,10 +45,43 @@ The app is not sandboxed because it runs `hdiutil`, `pkgbuild` and `xattr` to bu
    - **Install for:** New & Classic Teams, New Teams only, or Classic Teams only
    - **Restart Teams if running:** quits and reopens Teams so the new backgrounds load
    - **All local users when run as root:** otherwise only the logged-in user is updated
-5. For a PKG, set the identifier, version and (optionally) a `Developer ID Installer` signing identity.
+5. For a PKG, set the identifier, version and (optionally) a `Developer ID Installer` signing identity. Click the key button next to **Signing identity** to pick one of the installer identities found in your keychain, or the **?** button for help finding it.
 6. Click **Build**, then **Reveal** to show the result in Finder.
 
 The app never overwrites an earlier build. If the name is already taken it adds " 2", " 3" and so on.
+
+## Saving your identifier and signing identity
+
+The PKG identifier and signing identity are saved as you type them, and filled in again the next time the app opens.
+
+Open **Teams Backgrounds › Settings…** to:
+
+- turn **Remember identifier and signing identity from last session** on or off
+- set a **default identifier** and **default signing identity** for new sessions (used when remembering is off, or nothing has been saved yet)
+- **Clear Remembered Values**
+
+## Finding your Developer ID
+
+Choose **Help › Finding Your Developer ID** for the full in-app article. In short, run this in Terminal:
+
+```bash
+security find-identity -p basic -v
+```
+
+```
+  1) 86A4…2A31 "Developer ID Application: Jane Appleseed (ABCDE12345)"
+  2) 42EF…9B42 "Developer ID Installer: Jane Appleseed (ABCDE12345)"
+     2 valid identities found
+```
+
+Copy the text in quotes on the **Developer ID Installer** line into **Signing identity**. The code in brackets is your Team ID.
+
+- Use `-p basic`, not `-p codesigning`: the codesigning policy leaves out installer certificates.
+- `-v` only shows valid identities. If a certificate shows up in `security find-identity -p basic` but not with `-v`, it has expired, been revoked, or its private key isn't on this Mac.
+- Just the installer identities: `security find-identity -p basic -v | grep "Developer ID Installer"`
+- Team and expiry date: `security find-certificate -c "Developer ID Installer" -p | openssl x509 -noout -subject -enddate`
+- No certificate? In Xcode choose **Settings › Accounts ›** your team **› Manage Certificates… › + › Developer ID Installer** (Account Holder or Admin only).
+- Check a built package: `pkgutil --check-signature "Teams Backgrounds.pkg"`
 
 ## What gets generated
 
@@ -118,25 +153,30 @@ You can also run the script by hand with a custom source folder:
 
 | File | Purpose |
 |---|---|
-| `MyApp/MyApp.swift` | App entry point and About panel |
-| `MyApp/ContentView.swift` | User interface |
-| `MyApp/PackagerModel.swift` | UI state, file pickers, build action |
-| `MyApp/Models.swift` | Options, output formats and errors |
-| `MyApp/ImageConverter.swift` | Image conversion, resizing and thumbnails (ImageIO / Core Graphics) |
-| `MyApp/ScriptTemplates.swift` | Generated install script, PKG postinstall and README |
-| `MyApp/PackageBuilder.swift` | Builds the Folder, DMG and PKG (`hdiutil`, `pkgbuild`) |
-| `MyApp/Assets.xcassets/AppIcon.appiconset` | App icon (all macOS sizes) |
-| `Scripts/make-icon.swift` | Regenerates the app icon images |
+| `Teams Backgrounds/MyApp.swift` | App entry point, About panel, Help menu, Settings and help windows |
+| `Teams Backgrounds/ContentView.swift` | User interface |
+| `Teams Backgrounds/PackagerModel.swift` | UI state, file pickers, build action |
+| `Teams Backgrounds/Models.swift` | Options, output formats and errors |
+| `Teams Backgrounds/Preferences.swift` | Saved identifier / signing identity and Settings defaults |
+| `Teams Backgrounds/SettingsView.swift` | Settings window and the signing identity field |
+| `Teams Backgrounds/SigningIdentities.swift` | Finds Developer ID Installer identities with `security find-identity` |
+| `Teams Backgrounds/SigningHelpView.swift` | "Finding Your Developer ID" help article |
+| `Teams Backgrounds/ImageConverter.swift` | Image conversion, resizing and thumbnails (ImageIO / Core Graphics) |
+| `Teams Backgrounds/ScriptTemplates.swift` | Generated install script, PKG postinstall and README |
+| `Teams Backgrounds/PackageBuilder.swift` | Builds the Folder, DMG and PKG (`hdiutil`, `pkgbuild`) |
+| `Teams Backgrounds/Assets.xcassets/AppIcon.appiconset` | App icon (all macOS sizes) |
+| `icon.svg` / `icon.png` | Icon source and 1024 px render |
+| `Scripts/make-icon.swift` | Renders `icon.svg` into every icon size and the in-app logo |
 | `build.sh` | Command-line build script |
 | `LICENSE` | MIT License |
 
 ## Regenerating the icon
 
-The icon is drawn in code. After editing `Scripts/make-icon.swift`, regenerate every size with:
+The icon source is `icon.svg`, in the same style as Checkin Now and Patching Dashboard: a blue gradient tile, a bold white glyph and one yellow accent. After editing it, run this from the repository root to regenerate `icon.png`, every AppIcon size and the in-app logo:
 
 ```bash
 swiftc -o /tmp/make-icon Scripts/make-icon.swift
-/tmp/make-icon MyApp/Assets.xcassets/AppIcon.appiconset
+/tmp/make-icon
 ```
 
 ## License

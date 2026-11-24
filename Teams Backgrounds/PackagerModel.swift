@@ -16,9 +16,21 @@ final class PackagerModel {
     var teamsTarget: TeamsTarget = .both
     var restartTeams = true
     var installForAllUsers = true
-    var packageIdentifier = "com.company.teams-backgrounds"
+    var packageIdentifier = PreferenceKey.startingValue(
+        last: PreferenceKey.lastPackageIdentifier,
+        default: PreferenceKey.defaultPackageIdentifier,
+        fallback: PreferenceKey.fallbackPackageIdentifier
+    ) {
+        didSet { UserDefaults.standard.set(packageIdentifier, forKey: PreferenceKey.lastPackageIdentifier) }
+    }
     var packageVersion = "1.0"
-    var signingIdentity = ""
+    var signingIdentity = PreferenceKey.startingValue(
+        last: PreferenceKey.lastSigningIdentity,
+        default: PreferenceKey.defaultSigningIdentity,
+        fallback: ""
+    ) {
+        didSet { UserDefaults.standard.set(signingIdentity, forKey: PreferenceKey.lastSigningIdentity) }
+    }
 
     private(set) var isBuilding = false
     private(set) var logLines: [String] = []

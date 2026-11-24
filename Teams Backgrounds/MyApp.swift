@@ -1,6 +1,10 @@
 import SwiftUI
 
 @main struct TeamsBackgroundsApp: App {
+    init() {
+        PreferenceKey.registerDefaults()
+    }
+
     var body: some Scene {
         WindowGroup("Teams Backgrounds") {
             ContentView()
@@ -10,6 +14,29 @@ import SwiftUI
                 Button("About Teams Backgrounds") {
                     AboutPanel.show()
                 }
+            }
+            HelpCommands()
+        }
+
+        Window("Finding Your Developer ID", id: SigningHelpView.windowID) {
+            SigningHelpView()
+        }
+        .defaultSize(width: 680, height: 720)
+
+        Settings {
+            SettingsView()
+        }
+    }
+}
+
+/// Replaces the default "Help isn't available" item with the Developer ID article.
+private struct HelpCommands: Commands {
+    @Environment(\.openWindow) private var openWindow
+
+    var body: some Commands {
+        CommandGroup(replacing: .help) {
+            Button("Finding Your Developer ID") {
+                openWindow(id: SigningHelpView.windowID)
             }
         }
     }

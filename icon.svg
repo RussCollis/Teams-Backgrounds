@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F6BFF"/>
+      <stop offset="1" stop-color="#1636A8"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE35A"/>
+      <stop offset="1" stop-color="#FFB300"/>
+    </linearGradient>
+    <clipPath id="screen">
+      <rect x="196" y="300" width="632" height="404" rx="40"/>
+    </clipPath>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="url(#bg)"/>
+  <!-- stacked background card -->
+  <rect x="256" y="232" width="512" height="60" rx="30" fill="#FFFFFF" fill-opacity="0.45"/>
+  <!-- video call frame -->
+  <rect x="172" y="276" width="680" height="452" rx="60" fill="#FFFFFF"/>
+  <g clip-path="url(#screen)">
+    <rect x="196" y="300" width="632" height="404" fill="#DCE6FF"/>
+    <circle cx="704" cy="404" r="58" fill="url(#sun)"/>
+    <path d="M196 620 L356 452 L476 560 L604 420 L828 640 V704 H196 Z" fill="#7FA2F5"/>
+    <!-- person -->
+    <circle cx="512" cy="520" r="74" fill="#1636A8"/>
+    <path d="M362 704 C362 620 430 586 512 586 C594 586 662 620 662 704 Z" fill="#1636A8"/>
+  </g>
+  <!-- stand -->
+  <path d="M432 728 H592 L612 792 H412 Z" fill="#FFFFFF"/>
+</svg>
