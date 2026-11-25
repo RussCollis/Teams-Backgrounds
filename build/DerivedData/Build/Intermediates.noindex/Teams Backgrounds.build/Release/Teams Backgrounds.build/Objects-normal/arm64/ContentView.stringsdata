@@ -1,0 +1,240 @@
+{
+  "source": "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Build Failed",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Backgrounds",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Images…",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drag in images or folders of images. Any format macOS can read is converted to PNG and renamed to the UUID format Teams expects.",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drop Images Here",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remove",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "Output",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Image Conversion",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Teams",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "Installer Package",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "Package name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "Format",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save to",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose…",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saved as <uuid>.png with a %lld × %lld <uuid>_thumb.png.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resize",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resolution",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "Install for",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "Restart Teams if running",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "All local users when run as root",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Identifier",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 202
+        }
+      },
+      {
+        "comment": "",
+        "key": "Teams Backgrounds",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reveal",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "Build %@",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 270
+        }
+      }
+    ]
+  },
+  "version": 1
+}

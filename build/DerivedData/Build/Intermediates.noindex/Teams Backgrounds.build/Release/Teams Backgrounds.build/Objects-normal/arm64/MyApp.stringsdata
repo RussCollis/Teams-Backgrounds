@@ -1,0 +1,40 @@
+{
+  "source": "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/MyApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Teams Backgrounds",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 9
+        }
+      },
+      {
+        "comment": "",
+        "key": "Finding Your Developer ID",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "About Teams Backgrounds",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Finding Your Developer ID",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 38
+        }
+      }
+    ]
+  },
+  "version": 1
+}

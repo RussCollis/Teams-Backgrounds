@@ -1,0 +1,120 @@
+{
+  "source": "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Defaults for New Sessions",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remember identifier and signing identity from last session",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Remembered Values Cleared",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear Remembered Values",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "When on, the PKG identifier and signing identity you last used are filled in each time the app opens. When off, or when nothing has been saved yet, the defaults below are used.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Identifier",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signing identity",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Optional: Developer ID Installer: …",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signing identity",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose Identity",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose a Developer ID Installer identity from your keychain",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "How to find your Developer ID",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Developer ID Installer identities found",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Don't Sign",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 59
+        }
+      }
+    ]
+  },
+  "version": 1
+}

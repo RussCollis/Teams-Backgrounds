@@ -1,0 +1,71 @@
+{
+  "" : {
+    "const-values" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Teams Backgrounds-primary.swiftconstvalues",
+    "dependencies" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Teams Backgrounds-primary.d",
+    "diagnostics" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Teams Backgrounds-primary.dia",
+    "emit-module-dependencies" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Teams Backgrounds-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Teams Backgrounds-primary-emit-module.dia",
+    "pch" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Teams Backgrounds-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Teams Backgrounds-primary.swiftdeps"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/ContentView.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/ImageConverter.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ImageConverter.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ImageConverter.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ImageConverter.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/Models.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Models.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/MyApp.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/MyApp.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/MyApp.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/MyApp.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/PackageBuilder.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/PackageBuilder.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/PackageBuilder.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/PackageBuilder.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/PackagerModel.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/PackagerModel.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/PackagerModel.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/PackagerModel.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/Preferences.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Preferences.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Preferences.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/Preferences.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/ScriptTemplates.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ScriptTemplates.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ScriptTemplates.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/ScriptTemplates.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/SettingsView.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/SigningHelpView.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SigningHelpView.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SigningHelpView.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SigningHelpView.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/Teams Backgrounds/SigningIdentities.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SigningIdentities.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SigningIdentities.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/SigningIdentities.o"
+  },
+  "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/russellcollis/Documents/GitHub/Teams Backgrounds/build/DerivedData/Build/Intermediates.noindex/Teams Backgrounds.build/Release/Teams Backgrounds.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}
